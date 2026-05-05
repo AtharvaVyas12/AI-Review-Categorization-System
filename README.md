@@ -16,17 +16,19 @@ Unlike standard binary classifiers, this engine utilizes a weighted lexicon appr
 **1. Install Dependencies**
 ```bash
 pip install -r requirements.txt
+```
 
 **2. Run Diagnostics / Local Test**
 ```bash
 python main.py --mode test
+```
 
 **3. Run the API Server**
-
-```Bash
+```bash
 python main.py --mode server
+```
 
 **4. Process a Dataset**
-
-```Bash
+```bash
 python main.py --mode batch --input dataset.csv --output results.csv
+```
